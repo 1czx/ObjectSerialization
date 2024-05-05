@@ -38,4 +38,8 @@ void deserialize( UserDefinedType & rhs, std::istream & fin ){
 编译方式：
 1. g++ -o test test.cpp tinyxml2.cpp -std=c++17
 2. 提供了CMakeLists.txt文件
-（保险起见c++标准为c++17）
+--mkdir build
+--cd build
+--cmake ..
+--make
+--./test
